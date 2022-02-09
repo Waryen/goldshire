@@ -8,7 +8,7 @@
 		"warcraft",
 		"quotes"
 	],
-	"main": "index.js",
+	"main": "dist/index.js",
 	"scripts": {
 		"prepare": "husky install",
 		"release": "release-it",
