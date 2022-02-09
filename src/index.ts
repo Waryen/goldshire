@@ -1,3 +1,3 @@
-export function hello() {
-	console.log("I'm not prepared!");
-}
+export * from './generators';
+export * from './models';
+export * from './types';
