@@ -1,6 +1,6 @@
 {
 	"name": "goldshire",
-	"version": "0.0.3",
+	"version": "0.1.0",
 	"description": "Generate quotes from Warcraft universe!",
 	"keywords": [
 		"typescript",
