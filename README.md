@@ -15,7 +15,8 @@ npm i goldshire
 ```ts
 import { generateQuote } from 'goldshire';
 
-const quote = generateQuote();
+// optional parameter of type number, default to 1, describe the amount of quotes to generate.
+const quote = generateQuote(3);
 ```
 
 This function will return an object:
@@ -33,7 +34,8 @@ This function will return an object:
 ```ts
 import { generateCharacter } from 'goldshire';
 
-const character = generateCharacter();
+// optional parameter of type number, default to 1, describe the amount of characters to generate.
+const character = generateCharacter(3);
 ```
 
 This function will return an object:
